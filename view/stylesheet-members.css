@@ -1,0 +1,149 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Oxygen', sans-serif;
+}
+
+img {
+	display: block;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.oxygen {
+	font-family: 'Oxygen', sans-serif;
+}
+
+.text {
+	font-size: 125%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.white {
+	color: white;
+}
+
+.navbar {
+	position: fixed;
+	top: 0px;
+	left: 15px;
+	padding: 10px;
+	padding-bottom: 20px;
+	background-color: black;
+	border-bottom: 1px solid #aaa;
+	/*box-shadow: 5px 5px 5px #aaa;*/
+}
+
+.navbar div {
+	opacity: 1;
+	color: white;
+	z-index: 2;
+}
+
+section {
+  height: 100vh;
+}
+
+section:nth-child(2) {
+  background: black;
+  padding: 20px;
+  padding-top: 80px;
+  display: flex;
+  font-family: 'Oxygen', sans-serif;
+}
+
+section:nth-child(3) {
+  background: black;
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+section:nth-child(4) {
+  background: black;
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+section:nth-child(5) {
+  background: black;
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.description {
+	width: 50%;
+	height: 100%;
+	font-family: 'Oxygen', sans-serif;
+	color: white;
+	padding: 20px;
+}
+
+.batch-year {
+	width: 100%;
+	height: 100%;
+	font-family: 'Oxygen', sans-serif;
+	color: white;
+	padding: 20px;
+}
+
+.batch-heading {
+	height: 10%;
+	width: 100%;
+	font-size: 200%;
+	color: white;
+}
+
+.batch-row {
+	display: flex;
+	height: 45%;
+	width: 100%;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.passport {
+	height: 100%;
+	width: 33.33%;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	margin: 5px;
+	background: #111;
+	padding: 10px;
+	z-index: 
+}
+
+.picture {
+	height: 90%;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.passport a img {
+	opacity: 0.7;
+}
+

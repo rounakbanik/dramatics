@@ -1,0 +1,220 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Oxygen', sans-serif;
+	color: white;
+}
+
+img {
+	display: block;
+}
+
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.oxygen {
+	font-family: 'Oxygen', sans-serif;
+}
+
+.text {
+	font-size: 125%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.white {
+	color: white;
+}
+
+.navbar {
+	position: fixed;
+	top: 0px;
+	left: 15px;
+	padding: 10px;
+	padding-bottom: 20px;
+	background-color: black;
+	border-bottom: 1px solid #aaa;
+	z-index: 2;
+	/*box-shadow: 5px 5px 5px #aaa;*/
+}
+
+.navbar div {
+	opacity: 1;
+	color: white;
+	z-index: 2;
+}
+
+section {
+  height: 100vh;
+}
+
+section:nth-child(2) {
+  background: black;
+  padding: 20px;
+  padding-top: 80px;
+  display: flex;
+  font-family: 'Oxygen', sans-serif;
+}
+
+section:nth-child(3) {
+  height: 80vh;
+  background: black;
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+section:nth-child(4) {
+  height: 80vh;
+  background: black;
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.dp {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	font-family: 'Oxygen', sans-serif;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	background: #111;
+}
+
+.dp img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+}
+
+.info-row {
+	display: flex;
+	padding: 5px;
+}
+
+.dp-pad {
+	padding: 20px;
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.name {
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	top: 95%;
+	margin-top: -30px;
+	margin-left: -367px;
+	background: black;
+	width: 110%;
+	height: 10%;
+	opacity: 0.7;
+}
+
+.personal {
+	width: 50%;
+	height: 100%;
+	font-family: 'Oxygen', sans-serif;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+}
+
+.quote {
+	width: 100%;
+	height: 50%;
+	color: white;
+	padding: 30px;
+	background: #111;
+	font-size: 300%;
+}
+
+.personal-info {
+	width: 100%;
+	height: 50%;
+	padding: 25px;
+	color: white;
+	background: #111;
+	margin-top: 10px;
+}
+
+.quotations {
+	display: inline;
+	max-height: 30px;
+	max-width: 30px;
+}
+
+.icon {
+	display: inline;
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.personal-info div {
+	margin: 4px;
+}
+
+.links {
+	display: flex;
+	width: 100%;
+}
+
+.colmd-4 {
+	width: 33.33%;
+	margin: 5px;
+	background: #111;
+	height: 100%;
+	padding: 20px;
+}
+
+.colmd-8 {
+	width: 66.66%;
+	margin: 5px;
+	background: #111;
+	height: 100%;
+	padding: 20px;
+}
+
+.place {
+	height: 100%;
+	width: 100%;
+}
+
+li {
+	padding: 5px;
+}
+
+.list {
+	font-size: 150%;
+	margin: 5px;
+}
+
+.text-large {
+	font-size: 150%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: yellow;
+}
